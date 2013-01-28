@@ -1,0 +1,4 @@
+-- http://www.wowwiki.com/Uldum
+UPDATE `creature_template` set `exp`=3 where `entry` in (48168, 45755, 45715, 46041, 47283, 51764, 45905, 45859, 47327, 47326, 45202, 46129, 45190, 45765, 45586, 48697, 48626, 46441, 51712, 51675, 46317, 46333, 45353);
+-- modelid scorpid -> modelid lion
+UPDATE `creature_template` set `exp`=3, `modelid`=37168 where `entry`=50866;
