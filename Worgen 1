@@ -1,0 +1,5 @@
+-- Make some worgens walk andomly
+UPDATE CERATURE set MovementType=0 where id=35660;
+
+--http://www.wowhead.com/quest=14386
+delete from quest_poi where questid=14386 and objIndex=-1;
