@@ -1,0 +1,11 @@
+-- add Two Forms at level 1 for worgen
+DELETE FROM `playercreateinfo_spell` WHERE spell=87840;
+INSERT INTO `playercreateinfo_spell` (`race`, `class`, `Spell`, `Note`) VALUES
+(22, 11, 87840, 'Two Forms'),
+(22, 3, 87840, 'Two Forms'),
+(22, 8, 87840, 'Two Forms'),
+(22, 5, 87840, 'Two Forms'),
+(22, 4, 87840, 'Two Forms'),
+(22, 9, 87840, 'Two Forms'),
+(22, 6, 87840, 'Two Forms'),
+(22, 1, 87840, 'Two Forms');
